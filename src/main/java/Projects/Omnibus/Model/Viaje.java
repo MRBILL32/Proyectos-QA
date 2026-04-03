@@ -9,6 +9,12 @@ public class Viaje {
     public Viaje() {
     }
 
+    public Viaje(Long id, String ruta, double precio) {
+        this.id = id;
+        this.ruta = ruta;
+        this.precio = precio;
+    }
+
     public String getRuta() {
         return ruta;
     }

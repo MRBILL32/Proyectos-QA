@@ -5,8 +5,13 @@ public class Pasajero {
     private String nombre;
     private double saldo;
 
-    public Pasajero() {
+    public Pasajero(Long id, String nombre, double saldo) {
+        this.id = id;
+        this.nombre = nombre;
+        this.saldo = saldo;
     }
+
+
 
     public void setSaldo(double saldo) {
         this.saldo = saldo;
